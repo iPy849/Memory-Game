@@ -1,0 +1,77 @@
+h1 {
+    font-family: sans-serif;
+    margin: 0;
+    margin-bottom: .5rem;
+    padding: 0;
+    font-size: 3rem;
+    color: #AF8898;
+}
+
+#dialog {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+#dialog > button {
+    background-color: #E9B6C2;
+    z-index: 10;
+    padding: 2rem;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-weight: bolder;
+    font-size: 2rem;
+    font-family: sans-serif;
+    color: #7A7B7B;
+}
+
+#dialog > button:focus{
+    outline: none;
+}
+
+#dialog > button:active{
+    background-color: #DCA5BC;
+}
+
+.center-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #DCA5BC;
+    height: 100vh;
+}
+
+#content {
+    width: 30vw;
+    min-width: 500px;
+    height: 80vh;
+    padding: .5rem;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: #D1B8BE;
+}
+
+.card {
+    width: calc(100% / 4);
+    height: calc(100% / 4);
+    border-radius: 5px;
+}
+
+@media (max-width:641px) {
+    .content {
+        min-width: 0;
+        width: 90vw;
+        height: 60vh;
+    }
+    body{
+        background-color: red;
+    }
+}
