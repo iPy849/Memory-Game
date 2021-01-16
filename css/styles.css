@@ -66,12 +66,9 @@ h1 {
 }
 
 @media (max-width:641px) {
-    .content {
+    #content {
         min-width: 0;
         width: 90vw;
         height: 60vh;
-    }
-    body{
-        background-color: red;
     }
 }
