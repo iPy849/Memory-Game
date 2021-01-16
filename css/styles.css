@@ -48,7 +48,7 @@ h1 {
 #content {
     width: 30vw;
     min-width: 500px;
-    height: 80vh;
+    height: 80%;
     padding: .5rem;
     border-radius: 10px;
     display: flex;
@@ -69,6 +69,6 @@ h1 {
     #content {
         min-width: 0;
         width: 90vw;
-        height: 60vh;
+        height: 60%;
     }
 }
